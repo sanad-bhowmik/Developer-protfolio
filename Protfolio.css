@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .text-primary {
@@ -7,31 +8,34 @@
 }
 
 .btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
     height: 64px;
     border-radius: 5px;
     background: #FD6E0A;
-    border: 0;
-    padding: 18px 35px;
-    color: azure;
-    font-weight: 700;
-    font-size: 20px;
 }
 
 .header {
     background: #FFF8F3;
-    background-image: url('../Developer-protfolio/images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+   
 }
 
-/* header and navigation style */
+/* header and navigation styles */
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
-    Weight: 800;
-    Size: 45px;
+    font-weight: 800;
+    font-size: 45px;
 }
 
 nav ul {
@@ -44,13 +48,15 @@ nav li {
     margin-left: 50px;
 }
 
-/* Banner style */
+/* banner styles */
 .banner {
     display: flex;
-    margin: 0 200px;
     align-items: center;
+    margin: 0 200px;
 }
-
+#san{
+    margin-left: 50px;
+}
 .banner-title {
     font-weight: 700;
     font-size: 85px;
@@ -67,7 +73,6 @@ nav li {
     font-size: 18px;
     margin-bottom: 30px;
 }
-
 /* main */
 main {
     max-width: 1140px;
